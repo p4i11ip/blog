@@ -1,0 +1,72 @@
+  body {
+    background-color: #1E2124;
+    color: #ff4040;
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  #nav-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  #nav-section li{
+    color: red;
+    display: inline-block;
+    margin: 10px 40px;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px;
+  }
+
+  .nav-link {
+    color: red;
+    text-decoration: none;
+  }
+
+  #nav-section ul {
+    list-style-type: none;
+  }
+
+  #title {
+    margin-left: 100px;
+    margin-top: 300px;
+    display: inline;
+    float:left
+  }
+
+  #next-button {
+    display: inline;
+    width: 400px;
+    height: 90px;;
+    margin-left: 40px;
+    margin-top: 300px;
+    background-color: red;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 40px;
+    float:left
+  }
+
+  #next-button:hover {
+    background-color: #1E2124;
+    border: 1.5px solid white;
+    color: white;
+  }
+
+  #next-button:active {
+    background-color: #1E2124;
+    border: 1.5px solid red;
+    color: red;
+  }
