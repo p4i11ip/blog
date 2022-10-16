@@ -1,5 +1,5 @@
   body {
-    background-color: #1E2124;
+    background-color: #0c0c0c;
     color: #ff4040;
     font-family: 'Source Code Pro', monospace;
     text-decoration: none;
@@ -31,6 +31,12 @@
   .nav-link {
     color: red;
     text-decoration: none;
+    cursor: default;
+  }
+
+  .nav-link:hover {
+    cursor: default;
+    color: black;
   }
 
   #nav-section ul {
@@ -39,7 +45,7 @@
 
   #title {
     margin-left: 100px;
-    margin-top: 300px;
+    margin-top: 150px;
     display: inline;
     float:left
   }
@@ -49,7 +55,7 @@
     width: 400px;
     height: 90px;;
     margin-left: 40px;
-    margin-top: 300px;
+    margin-top: 150px;
     background-color: red;
     color: white;
     border: 1.5px solid white;
@@ -69,4 +75,43 @@
     background-color: #1E2124;
     border: 1.5px solid red;
     color: red;
+  }
+
+  .hero {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 250px;
+    border: 2px solid white;
+  }
+
+  .content-img {
+    height: 400px;
+    width: 400px;
+    margin: 20px 20px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 2px solid white;
+  }
+
+  #title-blog {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .content-block-title {
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .content-block-text {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
   }
